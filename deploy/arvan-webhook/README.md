@@ -1,10 +1,10 @@
 # Cert Manager Webhook Arvan
 
-If you're using [cert-manager](https://cert-manager.io) in your k8s and [ArvanCloud](https://www.arvancloud.com/en) as a dns provider, this plugin integrates with arvancloud api service to make DNS01 challenge possible for you.
+If you're using [cert-manager](https://cert-manager.io) in your k8s and [ArvanCloud](https://www.arvancloud.ir/en) as a dns provider, this plugin integrates with arvancloud api service to make DNS01 challenge possible for you.
 
 ## Introduction
 
-This chart setups a weebhook for [cert-manager](https://cert-manager.io) to resolve dns challenges on [ArvanCloud](https://www.arvancloud.com/en).
+This chart setups a weebhook for [cert-manager](https://cert-manager.io) to resolve dns challenges on [ArvanCloud](https://www.arvancloud.ir/en).
 
 ## Prerequisites
 

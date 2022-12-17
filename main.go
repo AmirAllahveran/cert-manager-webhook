@@ -298,7 +298,7 @@ func (c *arvanDNSProviderSolver) validateAndGetSecret(cfg *arvanDNSProviderConfi
 
 func (c *arvanDNSProviderSolver) urlFactory(cfg *arvanDNSProviderConfig, uri string, args ...string) string {
 	r := strings.NewReplacer(args...)
-	urlFormat := "https://napi.arvancloud.com" + uri
+	urlFormat := "https://napi.arvancloud.ir" + uri
 	if cfg.BaseURL != "" {
 		urlFormat = cfg.BaseURL + uri
 	}
